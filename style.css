@@ -35,3 +35,13 @@ body {
     text-align: center;
     align-self: center;
 }
+
+.contact, .skill, .language  {
+    padding: 0 0 0 10%;
+    text-align:left;
+}
+
+.left_aside {
+    width: 30%;
+    margin-right: 50px;
+}
