@@ -21,6 +21,11 @@ body {
 
 .nav_menu_li {
     margin-right: 20px;
+    font-size: 20px;
+}
+
+.a_link:hover {
+    color: #ffffff;
 }
 
 .foto {
@@ -61,4 +66,18 @@ h2 {
 
 .r_article {
     margin-right: 5%;
+}
+
+.footer_down {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #d3bb32;
+    height: 70px;
+}
+.img_git {
+    height: 25px;
+}
+.img_rs {
+    height: 40px;
 }
