@@ -9,11 +9,14 @@ body {
     background-color: #ffffff;
     box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
 }
-
+.navig {
+    background-color: #d3bb32;
+}
 .nav_menu{
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    padding: 2%;
 }
 
 .nav_menu_li {
@@ -24,7 +27,12 @@ body {
     border-radius: 50%;
     margin-right: 5%;
 }
-  
+
+h2 {
+    border-radius: 50%;
+    background-color:#d3bb32;
+    color: #ffffff;
+}
 .container {
     display: flex;
 }
@@ -44,4 +52,13 @@ body {
 .left_aside {
     width: 30%;
     margin-right: 50px;
+    margin-left: 5%;
+}
+
+.text_article {
+    text-align: left;
+}
+
+.r_article {
+    margin-right: 5%;
 }
